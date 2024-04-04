@@ -1,0 +1,15 @@
+:root {
+  --heading-font-family: "Roboto Slab", serif;
+  --default-font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: #000;
+  margin: 5px;
+}
+.container {
+  width: 100%;
+  border: 1px solid #fff;
+}
+h1 {
+  font-family: var(--heading-font-family);
+}
