@@ -6,10 +6,14 @@ body {
   background-color: #000;
   margin: 5px;
 }
-.container {
-  width: 100%;
-  border: 1px solid #fff;
-}
-h1 {
+
+h1,
+h2,
+h3 {
   font-family: var(--heading-font-family);
+}
+/* main section styling */
+.hero {
+  background-color: #cccccc;
+  padding: 80px 20px;
 }
