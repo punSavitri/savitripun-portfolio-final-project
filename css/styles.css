@@ -1,9 +1,12 @@
 :root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
   --heading-font-family: "Roboto Slab", serif;
   --default-font-family: "Open Sans", sans-serif;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
-  background-color: #000;
+  background-color: #f9f7fe;
   margin: 5px;
 }
 
@@ -14,6 +17,63 @@ h3 {
 }
 /* main section styling */
 .hero {
-  background-color: #cccccc;
-  padding: 80px 20px;
+  padding: 160px 20px;
+}
+.hero .navigation-link a {
+  display: block;
+  margin: 0 auto;
+}
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 27px;
+  padding: 15px 30px;
+  max-width: 200px;
+  transition: all 100ms ease-in-out;
+  font-family: var(--default-font-family);
+}
+.hero .btn-branding:hover {
+  background-color: #9a96e4;
+  color: #000;
+}
+.project-features {
+  background-color: #ee9f0c;
+  padding: 0 10px;
+}
+.project-features .primary-link {
+  border-radius: 10px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--branding-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+/* footer section styling */
+footer p {
+  font-size: 15px;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+footer .contact-box {
+  background: #f9f7fe;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer a.email-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 14px;
+  font-size: 18px;
+  background-color: #f2f0f5;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
 }
