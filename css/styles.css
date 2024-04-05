@@ -140,3 +140,45 @@ footer .social-links a:hover {
   background-color: var(--branding-color);
   color: #fff;
 }
+/* media queries */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 35px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .hero {
+    background-color: #e7e5ec;
+    padding: 70px 10px;
+  }
+
+  .project-description p {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+  }
+  .content-container {
+    padding: 60px;
+  }
+  .work-heading {
+    text-align: center;
+    font-weight: 700;
+  }
+  .contact-me {
+    text-align: center;
+  }
+  .btn-outline-primary {
+    display: block;
+    margin: 0 20px;
+    text-align: center;
+  }
+}
