@@ -188,7 +188,7 @@ footer .social-links a:hover {
     text-align: center;
     font-weight: 700;
   }
-  .contact-me {
+  .contact-box {
     text-align: center;
   }
   .btn-outline-primary {
@@ -198,5 +198,11 @@ footer .social-links a:hover {
   }
   .savitri-img {
     margin-top: 10px;
+  }
+  .email-link {
+    margin-top: 10px;
+  }
+  .contact-me {
+    text-align: center;
   }
 }
