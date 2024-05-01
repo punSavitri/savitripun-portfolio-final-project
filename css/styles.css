@@ -33,8 +33,17 @@ nav {
   padding: 20px 0;
   background-color: #fff;
 }
+a.navbar-brand {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.5;
+  transition: all 150ms ease-in-out;
+}
 a.nav-link.active {
   color: var(--branding-color) !important;
+}
+a.navbar-brand:hover {
+  color: var(--branding-color) !important ;
 }
 
 /* main section styling */
@@ -160,6 +169,7 @@ footer .social-links a:hover {
   h3 {
     font-size: 20px;
   }
+
   .hero {
     background-color: #e7e5ec;
     padding: 70px 10px;
