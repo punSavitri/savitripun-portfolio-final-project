@@ -57,6 +57,13 @@ a.navbar-brand:hover {
   font-size: 24px;
   text-align: center;
 }
+.hero h3 {
+  text-align: center;
+  margin: 0 auto;
+}
+a.cv {
+  text-decoration: none;
+}
 
 .btn-branding {
   background: var(--branding-color);
